@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body { 
+  background-color:rgb(255, 255, 255);
+}
+*{
+  padding:  0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+nav{ 
+   padding: 15px;
+   display: flex;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+#grid{
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px ;
+   
+}
+.contentHeader { 
+  font-family: 'Roboto', sans-serif;
+   display: flex ;
+   flex-direction: column;
+   margin-left: 50px;
+   padding: 40px;
+   flex-wrap: wrap;
+}
+.contentHeader h1  { 
+  font-family:  sans-serif;
+}
+.contentHeader p{  
+  margin-top: 0;
+  padding: 10px  0 0 20px;
+  width: 40%;
+  font-size: large;
+}
+.card{ 
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.card img{ 
+  width: 250px ;
+}
+.cardSection{ 
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+}
+.card #rating{
+    color: gray;
+}
+.card #price{
+  font-weight: bold;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
